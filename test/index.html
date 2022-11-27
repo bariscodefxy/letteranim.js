@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <title>Letter Anim Test</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <p class="text my-text">letteranim.js by bariscodefx</p>
+        <p class="text my-nick">by bariscodefx</p>
+        <script type="text/javascript" src="../src/letteranim.js"></script>
+        <script type="text/javascript">
+            let letterAnimAPI = new letteranim();
+            letterAnimAPI.addAnimatedClass(".my-text", "#DBB311");
+            letterAnimAPI.addAnimatedClass(".my-nick", "#cccccc");
+            letterAnimAPI.setLoopTime(200);
+            letterAnimAPI.doAnimate();
+        </script>
+        <style>
+            body {
+                width: 100vw;
+                height: 100vh;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                overflow: hidden;
+                background: #aaaaaa;
+            }
+            .text {
+                font-size: 50px;
+                font-family: fantasy;
+            }
+            .my-text {
+                color: #E7E807;
+            }
+            .my-nick {
+                color: #eeeeee;
+            }
+        </style>
+    </body>
+</html>
