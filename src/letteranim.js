@@ -51,7 +51,6 @@ function letteranim()
             }
             anims.push(newText);
         }
-        console.log(anims)
         return anims
     }
     
