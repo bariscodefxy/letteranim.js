@@ -14,3 +14,6 @@ letterAnimAPI.addAnimatedClass(".my-nick", "#cccccc");
 letterAnimAPI.setLoopTime(200);
 letterAnimAPI.doAnimate();
 ```
+
+# Todo
+* make animation to all elements with specified class name
