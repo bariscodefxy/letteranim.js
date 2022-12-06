@@ -1,5 +1,5 @@
 # letteranim.js
-A library for coloring animation to every letter in the text.
+A library for coloring animation to every letter in the text. [See demo](bariscodefxy.github.io/letteranim.js/test/index.html)
 
 # Using Library
 ```html
